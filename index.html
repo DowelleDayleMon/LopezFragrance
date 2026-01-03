@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lopez Fragrance - Perfume & Lifestyle ESTD 2018</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splashScreen">
+        <!-- Animated Background -->
+        <div class="splash-bg-container">
+            <div class="splash-gradient-orb orb-1"></div>
+            <div class="splash-gradient-orb orb-2"></div>
+            <div class="splash-gradient-orb orb-3"></div>
+        </div>
+        
+        <!-- Floating Particles -->
+        <div class="splash-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <!-- Perfume Bottle Silhouette -->
+        <div class="splash-bottle-container">
+            <svg class="splash-bottle" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="bottleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:#d4b281;stop-opacity:0.3" />
+                        <stop offset="100%" style="stop-color:#c9a16e;stop-opacity:0.6" />
+                    </linearGradient>
+                    <filter id="glow">
+                        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                        <feMerge>
+                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+                <!-- Cap -->
+                <rect x="70" y="20" width="60" height="40" rx="5" fill="url(#bottleGradient)" filter="url(#glow)" class="bottle-cap"/>
+                <!-- Neck -->
+                <rect x="80" y="60" width="40" height="60" fill="url(#bottleGradient)" filter="url(#glow)" class="bottle-neck"/>
+                <!-- Body -->
+                <rect x="50" y="120" width="100" height="240" rx="10" fill="url(#bottleGradient)" filter="url(#glow)" class="bottle-body"/>
+                <!-- Shine Effect -->
+                <ellipse cx="90" cy="200" rx="15" ry="80" fill="rgba(255,255,255,0.15)" class="bottle-shine"/>
+            </svg>
+        </div>
+        
+        <!-- Content -->
+        <div class="splash-content">
+            <div class="splash-logo">
+                <!-- Animated Circles -->
+                <div class="splash-circles">
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-3"></div>
+                </div>
+                
+                <!-- Brand Text -->
+                <div class="splash-text-container">
+                    <div class="splash-line splash-line-top"></div>
+                    <p class="splash-estd">ESTD 2018</p>
+                    <h1 class="splash-brand">
+                        <span class="letter" style="--delay: 0">L</span>
+                        <span class="letter" style="--delay: 1">O</span>
+                        <span class="letter" style="--delay: 2">P</span>
+                        <span class="letter" style="--delay: 3">E</span>
+                        <span class="letter" style="--delay: 4">Z</span>
+                    </h1>
+                    <p class="splash-tagline">
+                        <span class="tagline-word" style="--word-delay: 0">fragrance</span>
+                    </p>
+                    <p class="splash-subtitle">
+                        <span class="subtitle-char" style="--char-delay: 0">P</span>
+                        <span class="subtitle-char" style="--char-delay: 1">e</span>
+                        <span class="subtitle-char" style="--char-delay: 2">r</span>
+                        <span class="subtitle-char" style="--char-delay: 3">f</span>
+                        <span class="subtitle-char" style="--char-delay: 4">u</span>
+                        <span class="subtitle-char" style="--char-delay: 5">m</span>
+                        <span class="subtitle-char" style="--char-delay: 6">e</span>
+                        <span class="subtitle-char" style="--char-delay: 7">&nbsp;</span>
+                        <span class="subtitle-char" style="--char-delay: 8">&</span>
+                        <span class="subtitle-char" style="--char-delay: 9">&nbsp;</span>
+                        <span class="subtitle-char" style="--char-delay: 10">L</span>
+                        <span class="subtitle-char" style="--char-delay: 11">i</span>
+                        <span class="subtitle-char" style="--char-delay: 12">f</span>
+                        <span class="subtitle-char" style="--char-delay: 13">e</span>
+                        <span class="subtitle-char" style="--char-delay: 14">s</span>
+                        <span class="subtitle-char" style="--char-delay: 15">t</span>
+                        <span class="subtitle-char" style="--char-delay: 16">y</span>
+                        <span class="subtitle-char" style="--char-delay: 17">l</span>
+                        <span class="subtitle-char" style="--char-delay: 18">e</span>
+                    </p>
+                    <div class="splash-line splash-line-bottom"></div>
+                </div>
+                
+                <!-- Empowerment Quote -->
+                <div class="splash-quote">
+                    <p class="quote-text">"I am Empowered"</p>
+                </div>
+            </div>
+            
+            <!-- Loader -->
+            <div class="splash-loader">
+                <div class="loader-text">Crafting your experience</div>
+                <div class="loader-bar-container">
+                    <div class="loader-bar">
+                        <div class="loader-shine"></div>
+                    </div>
+                </div>
+                <div class="loader-stats">
+                    <span class="loader-percentage">0%</span>
+                    <span class="loader-status">Loading...</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bottom Corner Decoration -->
+        <div class="splash-corner-decoration">
+            <svg width="200" height="200" viewBox="0 0 200 200">
+                <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(201, 161, 110, 0.2)" stroke-width="1"/>
+                <circle cx="100" cy="100" r="60" fill="none" stroke="rgba(201, 161, 110, 0.3)" stroke-width="1"/>
+                <circle cx="100" cy="100" r="40" fill="none" stroke="rgba(201, 161, 110, 0.4)" stroke-width="1"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">LOPEZ</span>
+                <span class="logo-sub">fragrance</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#philosophy" class="nav-link">Philosophy</a>
+                <a href="#collection" class="nav-link">Collection</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#stories" class="nav-link">Stories</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-nav">Get In Touch</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle fade-in-up" data-delay="0">ESTD 2018 · Perfume & Lifestyle</p>
+                    <h1 class="hero-title fade-in-up" data-delay="0.2">
+                        I am<br>
+                        <span class="hero-emphasis">Empowered</span>
+                    </h1>
+                    <p class="hero-description fade-in-up" data-delay="0.4">
+                        Discover your signature scent. Embrace confidence, elegance, and the power within. 
+                        Each fragrance tells a story—yours to write, ours to craft.
+                    </p>
+                    <div class="hero-stats fade-in-up" data-delay="0.6">
+                        <div class="hero-stat">
+                            <h3 class="stat-value">5+</h3>
+                            <p class="stat-text">Years</p>
+                        </div>
+                        <div class="hero-stat">
+                            <h3 class="stat-value">15+</h3>
+                            <p class="stat-text">Scents</p>
+                        </div>
+                        <div class="hero-stat">
+                            <h3 class="stat-value">10K+</h3>
+                            <p class="stat-text">Happy Customers</p>
+                        </div>
+                    </div>
+                    <div class="hero-cta fade-in-up" data-delay="0.8">
+                        <a href="#collection" class="btn btn-primary btn-hero">
+                            <span>Explore Collection</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="#philosophy" class="btn btn-secondary btn-hero">
+                            <span>Our Philosophy</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-image-wrapper">
+                    <div class="image-decoration decoration-1"></div>
+                    <div class="image-decoration decoration-2"></div>
+                    <img src="assets/hero.jpg" alt="Lopez Fragrance elegant perfume bottle with warm lighting" class="hero-image fade-in">
+                    <div class="hero-badge">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#c9a16e" stroke-width="1"/>
+                            <text x="50" y="45" text-anchor="middle" fill="#c9a16e" font-size="12" font-weight="600">CRAFTED</text>
+                            <text x="50" y="60" text-anchor="middle" fill="#c9a16e" font-size="12" font-weight="600">WITH LOVE</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <p class="scroll-text">Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy" id="philosophy">
+        <div class="container">
+            <div class="philosophy-grid">
+                <div class="philosophy-content reveal">
+                    <p class="section-label">Our Philosophy</p>
+                    <h2 class="section-title">More Than Just<br>A Fragrance</h2>
+                    <p class="philosophy-text">
+                        At Lopez Fragrance, we believe that a scent is more than just a pleasant aroma—it's an extension of your identity, a whisper of your personality, and a signature that lingers long after you've left the room.
+                    </p>
+                    <p class="philosophy-text">
+                        Since 2018, we've been on a mission to empower individuals through the art of perfumery. Each bottle we create is a testament to our dedication to quality, authenticity, and the transformative power of scent.
+                    </p>
+                    <div class="philosophy-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <h4>Premium Ingredients</h4>
+                            <p>Only the finest, ethically sourced materials from around the world</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                            </div>
+                            <h4>Timeless Craftsmanship</h4>
+                            <p>Each fragrance is meticulously crafted with attention to every detail</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </div>
+                            <h4>Made with Passion</h4>
+                            <p>Every bottle carries our commitment to excellence and empowerment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="philosophy-images reveal">
+                    <div class="phil-image-grid">
+                        <div class="phil-image phil-image-1">
+                            <img src="assets/philosophy1.jpg" alt="Lopez Fragrance craftsmanship and ingredients">
+                        </div>
+                        <div class="phil-image phil-image-2">
+                            <img src="assets/philosophy2.jpg" alt="Lopez Fragrance premium bottle design">
+                        </div>
+                        <div class="phil-image phil-image-3">
+                            <img src="assets/philosophy3.jpg" alt="Lopez Fragrance empowerment and confidence">
+                        </div>
+                    </div>
+                    <div class="philosophy-quote">
+                        <p>"Scent is the most powerful trigger to the memory there is. A certain flower, or a whiff of smoke can bring up experiences long forgotten."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-overlay"></div>
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images reveal">
+                    <div class="about-image-main">
+                        <img src="assets/ig6.jpg" alt="Lopez Fragrance brand story and craftsmanship" class="parallax-image">
+                        <div class="about-image-overlay">
+                            <div class="overlay-content">
+                                <div class="overlay-icon">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                    </svg>
+                                </div>
+                                <h3>Crafted with Love</h3>
+                                <p>Since 2018 · Quezon City, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-floating-card">
+                        <div class="floating-card-content">
+                            <div class="floating-stat">
+                                <span class="floating-number">100%</span>
+                                <span class="floating-label">Authentic</span>
+                            </div>
+                            <div class="floating-stat">
+                                <span class="floating-number">5★</span>
+                                <span class="floating-label">Rated</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <p class="section-label">Our Story</p>
+                    <h2 class="section-title">Where Passion<br>Meets Perfection</h2>
+                    <div class="about-highlight">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <div>
+                            <h4>Founded in 2018</h4>
+                            <p>Born from a vision to empower through scent</p>
+                        </div>
+                    </div>
+                    <p class="about-text">
+                        Lopez Fragrance was born from a <strong>vision to create more than just perfumes</strong>—we create experiences that transform. Each scent tells a story, evokes emotion, and empowers the wearer to embrace their authentic self with unwavering confidence.
+                    </p>
+                    <p class="about-text">
+                        Our carefully curated collection blends the <strong>finest ingredients</strong> with modern sophistication, designed for those who dare to be different. From concept to creation, every step is infused with passion, precision, and the relentless pursuit of excellence.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <div class="feature-number">01</div>
+                            <h5>Premium Ingredients</h5>
+                            <p>Sourced from the world's finest suppliers</p>
+                        </div>
+                        <div class="about-feature-item">
+                            <div class="feature-number">02</div>
+                            <h5>Expert Craftsmanship</h5>
+                            <p>Perfected through years of dedication</p>
+                        </div>
+                        <div class="about-feature-item">
+                            <div class="feature-number">03</div>
+                            <h5>Sustainable Practices</h5>
+                            <p>Caring for people and planet</p>
+                        </div>
+                    </div>
+
+                    <div class="about-stats-enhanced">
+                        <div class="stat-item-enhanced">
+                            <div class="stat-icon-enhanced">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number">7+</h3>
+                                <p class="stat-label">Years of Excellence</p>
+                            </div>
+                        </div>
+                        <div class="stat-item-enhanced">
+                            <div class="stat-icon-enhanced">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number">15+</h3>
+                                <p class="stat-label">Signature Scents</p>
+                            </div>
+                        </div>
+                        <div class="stat-item-enhanced">
+                            <div class="stat-icon-enhanced">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number">10K+</h3>
+                                <p class="stat-label">Happy Customers</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta-buttons">
+                        <a href="#collection" class="btn btn-primary">
+                            <span>Explore Our Scents</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="#process" class="btn btn-secondary">
+                            <span>Our Process</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section class="collection" id="collection">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Our Collection</p>
+                <h2 class="section-title">Signature Fragrances</h2>
+                <p class="section-description">Discover scents that define you. Each fragrance is a journey, a statement, a piece of your story waiting to be told.</p>
+            </div>
+            
+            <!-- Filter Tabs -->
+            <div class="collection-filters reveal">
+                <button class="filter-btn active" data-filter="all">
+                    <span>All Scents</span>
+                    <span class="filter-count">4</span>
+                </button>
+                <button class="filter-btn" data-filter="bestseller">
+                    <span>Best Sellers</span>
+                    <span class="filter-count">2</span>
+                </button>
+                <button class="filter-btn" data-filter="women">
+                    <span>For Her</span>
+                    <span class="filter-count">2</span>
+                </button>
+                <button class="filter-btn" data-filter="men">
+                    <span>For Him</span>
+                    <span class="filter-count">2</span>
+                </button>
+                <button class="filter-btn" data-filter="new">
+                    <span>New Arrivals</span>
+                    <span class="filter-count">1</span>
+                </button>
+            </div>
+
+            <div class="collection-grid" id="collectionGrid">
+                <div class="product-card reveal" data-delay="0" data-category="bestseller women">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="assets/perfume1.jpg" alt="Lopez Fragrance Empowered - Floral and woody notes perfume" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn btn-light">Discover More</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <div>
+                                <h3 class="product-name">Empowered</h3>
+                                <p class="product-category">Eau de Parfum · 50ml</p>
+                            </div>
+                            <div class="product-rating">
+                                <span>★★★★★</span>
+                            </div>
+                        </div>
+                        <p class="product-description">Bold. Confident. Unforgettable. A harmonious blend of jasmine, sandalwood, and amber that commands attention.</p>
+                        <div class="product-notes">
+                            <span class="note">Jasmine</span>
+                            <span class="note">Sandalwood</span>
+                            <span class="note">Amber</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card reveal" data-delay="0.1" data-category="new women">
+                    <div class="product-badge new-badge">New</div>
+                    <div class="product-image">
+                        <img src="assets/perfume2.jpg" alt="Lopez Fragrance Elegance - Citrus and musk perfume" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn btn-light">Discover More</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <div>
+                                <h3 class="product-name">Elegance</h3>
+                                <p class="product-category">Eau de Parfum · 50ml</p>
+                            </div>
+                            <div class="product-rating">
+                                <span>★★★★★</span>
+                            </div>
+                        </div>
+                        <p class="product-description">Sophisticated and timeless. Citrus top notes with a warm musk base create an aura of refined grace.</p>
+                        <div class="product-notes">
+                            <span class="note">Citrus</span>
+                            <span class="note">Musk</span>
+                            <span class="note">Vetiver</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card reveal" data-delay="0.2" data-category="men">
+                    <div class="product-image">
+                        <img src="assets/perfume3.jpg" alt="Lopez Fragrance Mystique - Oriental and spice perfume" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn btn-light">Discover More</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <div>
+                                <h3 class="product-name">Mystique</h3>
+                                <p class="product-category">Eau de Parfum · 50ml</p>
+                            </div>
+                            <div class="product-rating">
+                                <span>★★★★★</span>
+                            </div>
+                        </div>
+                        <p class="product-description">Enigmatic and alluring. Oriental spices meet vanilla and patchouli in a dance of mystery.</p>
+                        <div class="product-notes">
+                            <span class="note">Vanilla</span>
+                            <span class="note">Patchouli</span>
+                            <span class="note">Spice</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card reveal" data-delay="0.3" data-category="bestseller men">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="assets/perfume4.jpg" alt="Lopez Fragrance Serenity - Fresh and aquatic perfume" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn btn-light">Discover More</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <div>
+                                <h3 class="product-name">Serenity</h3>
+                                <p class="product-category">Eau de Parfum · 50ml</p>
+                            </div>
+                            <div class="product-rating">
+                                <span>★★★★★</span>
+                            </div>
+                        </div>
+                        <p class="product-description">Fresh and calming. Aquatic notes with hints of bergamot and sea salt for peaceful elegance.</p>
+                        <div class="product-notes">
+                            <span class="note">Bergamot</span>
+                            <span class="note">Sea Salt</span>
+                            <span class="note">Aquatic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Show More Button -->
+            <div class="collection-actions reveal">
+                <button class="btn btn-secondary btn-show-more" id="showMoreBtn" style="display: none;">
+                    <span>Show More Fragrances</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div class="collection-count">
+                    <p>Showing <span id="showingCount">4</span> of <span id="totalCount">4</span> fragrances</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="process-background"></div>
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Our Process</p>
+                <h2 class="section-title">From Vision to Bottle</h2>
+                <p class="section-description">Every Lopez fragrance is a journey of artistry, science, and passion.</p>
+            </div>
+            <div class="process-timeline">
+                <div class="timeline-item reveal" data-delay="0">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3>Inspiration</h3>
+                        <p>We draw inspiration from emotions, memories, and the stories of empowered individuals. Each scent begins with a feeling we want to capture.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="assets/creation.jpg" alt="Lopez Fragrance inspiration and concept phase">
+                    </div>
+                </div>
+                <div class="timeline-item reveal" data-delay="0.2">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3>Selection</h3>
+                        <p>Our master perfumers carefully select premium ingredients from trusted sources worldwide, ensuring only the finest quality.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="assets/selection.jpg" alt="Lopez Fragrance ingredient selection">
+                    </div>
+                </div>
+                <div class="timeline-item reveal" data-delay="0.4">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3>Creation</h3>
+                        <p>Through meticulous blending and testing, we craft each layer of the fragrance, balancing top, heart, and base notes to perfection.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="assets/inspiration.jpg" alt="Lopez Fragrance creation and blending">
+                    </div>
+                </div>
+                <div class="timeline-item reveal" data-delay="0.6">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3>Maturation</h3>
+                        <p>Each fragrance rests and matures, allowing the notes to harmonize and develop their full character over time.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="assets/maturation.jpg" alt="Lopez Fragrance maturation process">
+                    </div>
+                </div>
+                <div class="timeline-item reveal" data-delay="0.8">
+                    <div class="timeline-number">05</div>
+                    <div class="timeline-content">
+                        <h3>Bottling</h3>
+                        <p>Finally, each perfume is hand-bottled in our signature vessels, ready to empower its owner with confidence and elegance.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="assets/bottling.jpg" alt="Lopez Fragrance bottling and packaging">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section class="stories" id="stories">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Customer Stories</p>
+                <h2 class="section-title">Empowered Voices</h2>
+                <p class="section-description">Real stories from real people who found their signature scent with Lopez.</p>
+            </div>
+            <div class="stories-grid">
+                <div class="story-card reveal" data-delay="0">
+                    <div class="story-image">
+                        <img src="assets/person1perfume.webp" alt="Happy customer Jhana Ann Villamarzo wearing Lopez Fragrance" class="story-img">
+                        <div class="story-overlay">
+                            <div class="story-scent">Wearing: Empowered</div>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <div class="story-rating">★★★★★</div>
+                        <p class="story-quote">"Lopez Fragrance has become my signature. The Empowered scent gives me confidence every single day. It's more than a perfume—it's a part of who I am."</p>
+                        <div class="story-author">
+                            <img src="assets/person1.jpg" alt="Jhana Ann Villamarzo avatar" class="author-avatar">
+                            <div>
+                                <p class="author-name">Jhana Ann Villamarzo</p>
+                                <p class="author-title">Ms. Lyceum Subic 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-card reveal" data-delay="0.2">
+                    <div class="story-image">
+                        <img src="assets/jungkook perfume.jpg" alt="Happy customer Maria Santos using Lopez Fragrance products" class="story-img">
+                        <div class="story-overlay">
+                            <div class="story-scent">Wearing: Elegance</div>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <div class="story-rating">★★★★★</div>
+                        <p class="story-quote">"The quality is exceptional. I love how the scent lasts all day without being overpowering. The packaging is absolutely beautiful—feels so premium!"</p>
+                        <div class="story-author">
+                            <img src="assets/person2.webp" alt="Maria Santos avatar" class="author-avatar">
+                            <div>
+                                <p class="author-name">Maria Santos</p>
+                                <p class="author-title">Fashion Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-card reveal" data-delay="0.4">
+                    <div class="story-image">
+                        <img src="assets/shuveeperfume.png" alt="Satisfied customer John Reyes with Lopez Fragrance collection" class="story-img">
+                        <div class="story-overlay">
+                            <div class="story-scent">Wearing: Mystique</div>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <div class="story-rating">★★★★★</div>
+                        <p class="story-quote">"Finally, a local fragrance brand that rivals international luxury brands. Lopez is a game-changer. The Mystique scent is absolutely captivating."</p>
+                        <div class="story-author">
+                            <img src="assets/person3.jpg" alt="John Reyes avatar" class="author-avatar">
+                            <div>
+                                <p class="author-name">John Reyes</p>
+                                <p class="author-title">Creative Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed Section -->
+    <section class="instagram-feed">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Follow Us</p>
+                <h2 class="section-title">@lopezfragrance</h2>
+                <p class="section-description">Join our community and share your #LopezMoment</p>
+            </div>
+            <div class="instagram-grid">
+                <div class="insta-item reveal" data-delay="0">
+                    <img src="assets/ig1.jpg" alt="Lopez Fragrance Instagram post 1">
+                    <div class="insta-overlay">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                        <span>1.2K</span>
+                    </div>
+                </div>
+                <div class="insta-item reveal" data-delay="0.1">
+                    <img src="assets/ig2.jpg" alt="Lopez Fragrance Instagram post 2">
+                    <div class="insta-overlay">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                        <span>2.4K</span>
+                    </div>
+                </div>
+                <div class="insta-item reveal" data-delay="0.2">
+                    <img src="assets/ig3.jpg" alt="Lopez Fragrance Instagram post 3">
+                    <div class="insta-overlay">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                        <span>3.1K</span>
+                    </div>
+                </div>
+                <div class="insta-item reveal" data-delay="0.3">
+                    <img src="assets/ig4.jpg" alt="Lopez Fragrance Instagram post 4">
+                    <div class="insta-overlay">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                        <span>1.8K</span>
+                    </div>
+                </div>
+                <div class="insta-item reveal" data-delay="0.4">
+                    <img src="assets/ig5.jpg" alt="Lopez Fragrance Instagram post 5">
+                    <div class="insta-overlay">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                        <span>2.9K</span>
+                    </div>
+                </div>
+                <div class="insta-item reveal" data-delay="0.5">
+                    <img src="assets/ig6.jpg" alt="Lopez Fragrance Instagram post 6">
+                    <div class="insta-overlay">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                        <span>4.2K</span>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-cta reveal">
+                <a href="https://instagram.com/lopezfragrance" target="_blank" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                    <span>Follow on Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content reveal">
+            <div class="newsletter-text">
+                <h2>Stay Empowered</h2>
+                <p>Join our community and be the first to know about new releases, exclusive offers, and fragrance tips.</p>
+            </div>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-primary">
+                    <span>Subscribe</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </form>
+            <p class="newsletter-privacy">We respect your privacy. Unsubscribe anytime.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Questions</p>
+                <h2 class="section-title">Frequently Asked</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item reveal" data-delay="0">
+                    <div class="faq-question">
+                        <h4>How long do Lopez fragrances last?</h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our Eau de Parfum formulations are designed to last 6-8 hours on the skin, with the base notes lingering even longer. Longevity can vary based on skin type, climate, and application method.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal" data-delay="0.1">
+                    <div class="faq-question">
+                        <h4>Are Lopez fragrances suitable for sensitive skin?</h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We use high-quality, hypoallergenic ingredients and conduct thorough testing. However, we always recommend doing a patch test if you have particularly sensitive skin.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal" data-delay="0.2">
+                    <div class="faq-question">
+                        <h4>Where can I purchase Lopez Fragrance products?</h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can order directly through our social media pages or contact us via the form below. We offer delivery within Metro Manila and ship nationwide.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal" data-delay="0.3">
+                    <div class="faq-question">
+                        <h4>Do you offer samples?</h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer sample sets so you can experience our fragrances before committing to a full bottle. Contact us for more information on sample availability.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal" data-delay="0.4">
+                    <div class="faq-question">
+                        <h4>What's your return policy?</h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We want you to love your fragrance! If you're not completely satisfied, you can return unopened bottles within 7 days of delivery for a full refund.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal" data-delay="0.5">
+                    <div class="faq-question">
+                        <h4>Are your fragrances vegan and cruelty-free?</h4>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! All Lopez Fragrance products are 100% cruelty-free and most of our scents are vegan-friendly. We're committed to ethical beauty practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-background"></div>
+        <div class="container">
+            <div class="cta-content reveal">
+                <h2 class="cta-title">Find Your Signature Scent</h2>
+                <p class="cta-description">Join thousands who have discovered the power of Lopez Fragrance. Your perfect scent awaits.</p>
+                <a href="#contact" class="btn btn-primary btn-large">
+                    <span>Get in Touch</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <p class="section-label">Get in Touch</p>
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="contact-text">Have questions about our fragrances? Want to place an order? We'd love to hear from you and help you find your perfect scent.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-label">Location</p>
+                                <p class="contact-value">East Tapinac, Olongapo, Philippines, 2200</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <p class="contact-value">lopezfragrance@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-label">Phone</p>
+                                <p class="contact-value">+63 998 462 2311</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="contact-label">Business Hours</p>
+                                <p class="contact-value">Mon-Sat: 9AM - 6PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/jmlopezcollection" class="social-link" aria-label="Facebook" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/lopezfragrances/" class="social-link" aria-label="Instagram" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@lopezfragrance" class="social-link" aria-label="TikTok" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form reveal">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="juan@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+63 912 345 6789">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="order">Place an Order</option>
+                                <option value="sample">Request Samples</option>
+                                <option value="collaboration">Business Collaboration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">LOPEZ</span>
+                        <span class="logo-sub">fragrance</span>
+                    </div>
+                    <p class="footer-tagline">Perfume & Lifestyle</p>
+                    <p class="footer-estd">ESTD 2018</p>
+                    <p class="footer-description">Empowering individuals through the art of scent. Each fragrance tells a story—yours to write, ours to craft.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#philosophy">Philosophy</a></li>
+                            <li><a href="#collection">Collection</a></li>
+                            <li><a href="#process">Process</a></li>
+                            <li><a href="#stories">Stories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#faq">FAQs</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">Shipping Info</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">TikTok</a></li>
+                            <li><a href="#">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lopez Fragrance. All rights reserved.</p>
+                <p>Handcrafted with love in the Philippines 🇵🇭</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
